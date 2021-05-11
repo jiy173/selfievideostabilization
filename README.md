@@ -1,3 +1,5 @@
-# selfievideostabilization
+# Real-Time Selfie Video Stabilization
 
-Code and Data coming soon
+This repo is still under construction, more code and data coming soon.
+
+Quick Start:
