@@ -230,7 +230,8 @@ def getfeature(frame1_gpu,frame2_gpu,frame1,frame2,mask,lastfeat,flow_calculator
     if lastfeat is None or lastfeat.shape[0]<30:
         prevPoints=feature_detector.detect(frame1_gpu)
     else:
-        prevPoints.upload(np.expand_dims(lastfeat,0))
+        #prevPoints.upload(np.expand_dims(lastfeat,0))
+        prevPoints=feature_detector.detect(frame1_gpu)
     flow=flow_calculator.calc(frame1_gpu, frame2_gpu, prevPoints,nextPoints)
     nextPoints=flow[0]
     valid=flow[1].download().squeeze()
