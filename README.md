@@ -1,12 +1,14 @@
 # Real-Time Selfie Video Stabilization
 
-This is the code for the paper "Real-Time Selfie Video Stabilization", CVPR 2021
+This is the code for the paper "[Real-Time Selfie Video Stabilization](https://cseweb.ucsd.edu//~ravir/jiyangcvpr21.pdf "Real-Time Selfie Video Stabilization")", CVPR 2021
+
+![](./Figs/teaser.png)
 
 Note: To use this code, you need to compile opencv-python from source with cuda and python support. 
 
 Quick Start:
 
-1. Download pretrained weights at 
+1. Download pretrained weights at [pretrained weights](https://drive.google.com/file/d/1h8Dv861koK4f-kpf01kao61kOgaFaOTZ/view?usp=sharing "pretrained weights")
 2. Unzip the pretrained weights package. There are 5 files listed below:
  - 1.avi : an example video for demo
  - checkpt_fcn.pt : pretrained weight for the foreground/background segmentation
@@ -18,8 +20,11 @@ Quick Start:
 5. Put "shape_predictor_68_face_landmarks.dat" under "./landmark_detection"
 6. Run "main.py", the stabilized result can be found in './result'
 
+The 26 example selfie videos can be downloaded at [example videos](https://drive.google.com/file/d/1Vft8LML8ZpO0fKjG-cU6-ruTHOjOw0zw/view?usp=sharing "example videos")
+
+
 ## Reference 
-If you find our work useful, please cite our paper as:
+If you find our work useful, please cite our paper:
 ````
 @InProceedings{Selfie21,
   author       = "Jiyang Yu and Ravi Ramamoorthi and Keli Cheng and Michel Sarkis and Ning Bi",
@@ -29,4 +34,3 @@ If you find our work useful, please cite our paper as:
   year         = "2021"
 }
 ````
-
