@@ -8,7 +8,7 @@ Note 1: We are still working on building this repository, uploading training dat
 
 Note 2: To use this code, you need to compile opencv-python from source with cuda and python support. 
 
-Quick Start:
+## Quick Start
 
 1. Download pretrained weights at [pretrained weights](https://drive.google.com/file/d/1h8Dv861koK4f-kpf01kao61kOgaFaOTZ/view?usp=sharing "pretrained weights")
 2. Unzip the pretrained weights package. There are 5 files listed below:
@@ -25,7 +25,11 @@ Quick Start:
 The 26 example selfie videos can be downloaded at [example videos](https://drive.google.com/file/d/1Vft8LML8ZpO0fKjG-cU6-ruTHOjOw0zw/view?usp=sharing "example videos")
 
 ## Dataset 
-The authors are still working on making the dataset fully public, due to the difficulty of uploading the oversized detected feature points and face vertices. While we are resovling the issues, we first make the raw videos and detected masks available at [Selfie_Video_Dataset](https://mega.nz/folder/ftVmSTQS#iWV1Kunz0FGLA4b51A7Q0g). We will update the follow-up data to this folder. Please stay tuned for more data and training code.
+The authors are still working on making the dataset fully public, due to the difficulty of uploading the oversized detected feature points and face vertices. While we are resovling the issues, we first make the raw videos and detected masks available at [Selfie_Video_Dataset](https://mega.nz/folder/ftVmSTQS#iWV1Kunz0FGLA4b51A7Q0g). We will update the follow-up data to this folder. 
+
+## Training Code
+The training code is being cleaning up. In the meantime, please use the minimal training code with feature point/ head vertices data from the first 30 videos in our dataset. The code is available at [SelfieVideo_MinimalTraining](https://mega.nz/folder/bl9lTQZK#h23I8TeXR-B-HAR9l9a4_g "SelfieVideo_MinimalTraining").
+Please stay tuned for more data and training code.
 
 ## Reference 
 If you find our work useful, please cite our paper:
