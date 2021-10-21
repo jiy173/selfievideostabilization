@@ -5,6 +5,7 @@ This is the code for the paper "[Real-Time Selfie Video Stabilization](https://c
 ![](./Figs/teaser.png)
 
 Note 1: We are still working on building this repository, uploading training data and cleaning up training code. Please stay tuned for more updates.
+
 Note 2: To use this code, you need to compile opencv-python from source with cuda and python support. 
 
 Quick Start:
