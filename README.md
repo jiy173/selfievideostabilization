@@ -4,7 +4,7 @@ This is the code for the paper "[Real-Time Selfie Video Stabilization](https://c
 
 ![](./Figs/teaser.png)
 
-Note 1: We are still working on building this repository, uploading training data and cleaning up training code. Please stay tuned for more updates. Meanwhile, please find [the raw videos and detected masks](https://github.com/jiy173/selfievideostabilization#dataset "the raw videos and detected masks") used in the training.
+Note 1: We are still working on building this repository, uploading training data and cleaning up training code. Please stay tuned for more updates. Meanwhile, please find [the raw videos and detected masks](https://github.com/jiy173/selfievideostabilization#dataset "the raw videos and detected masks") used in the training. If you would like to try out the training code, please use the temporary [minimal training code](https://github.com/jiy173/selfievideostabilization#training-code).
 
 Note 2: To use this code, you need to compile opencv-python from source with cuda and python support. 
 
