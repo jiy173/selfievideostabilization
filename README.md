@@ -4,7 +4,8 @@ This is the code for the paper "[Real-Time Selfie Video Stabilization](https://c
 
 ![](./Figs/teaser.png)
 
-Note: To use this code, you need to compile opencv-python from source with cuda and python support. 
+Note 1: We are still working on building this repository, uploading training data and cleaning up training code. Please stay tuned for more updates.
+Note 2: To use this code, you need to compile opencv-python from source with cuda and python support. 
 
 Quick Start:
 
@@ -22,6 +23,8 @@ Quick Start:
 
 The 26 example selfie videos can be downloaded at [example videos](https://drive.google.com/file/d/1Vft8LML8ZpO0fKjG-cU6-ruTHOjOw0zw/view?usp=sharing "example videos")
 
+## Dataset 
+The authors are still working on making the dataset fully public, due to the difficulty of uploading the oversized detected feature points and face vertices. While we are resovling the issues, we first make the raw videos and detected masks available at [Selfie_Video_Dataset](https://mega.nz/folder/ftVmSTQS#iWV1Kunz0FGLA4b51A7Q0g). We will update the follow-up data to this folder. Please stay tuned for more data and training code.
 
 ## Reference 
 If you find our work useful, please cite our paper:
