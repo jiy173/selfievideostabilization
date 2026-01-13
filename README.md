@@ -25,10 +25,10 @@ Note 2: To use this code, you need to compile opencv-python from source with cud
 The 26 example selfie videos can be downloaded at [example videos](https://drive.google.com/file/d/1Vft8LML8ZpO0fKjG-cU6-ruTHOjOw0zw/view?usp=sharing "example videos")
 
 ## Dataset 
-The authors are still working on making the dataset fully public, due to the difficulty of uploading the oversized detected feature points and face vertices. While we are resovling the issues, we first make the raw videos and detected masks available at [Selfie_Video_Dataset](https://mega.nz/folder/ftVmSTQS#iWV1Kunz0FGLA4b51A7Q0g). We will update the follow-up data to this folder. 
+The authors are still working on making the dataset fully public, due to the difficulty of uploading the oversized detected feature points and face vertices. While we are resovling the issues, we first make the raw videos and detected masks available at [Selfie_Video_Dataset](https://drive.google.com/drive/folders/1cCUbtt474huW81Hb8iPNxe2UlXRWv4Ac?usp=sharing). We will update the follow-up data to this folder. 
 
 ## Training Code
-The training code is being cleaning up. In the meantime, please use the minimal training code with feature point/ head vertices data from the first 30 videos in our dataset. The code is available at [SelfieVideo_MinimalTraining](https://mega.nz/folder/bl9lTQZK#h23I8TeXR-B-HAR9l9a4_g "SelfieVideo_MinimalTraining").
+The training code is being cleaning up. In the meantime, please use the minimal training code with feature point/ head vertices data from the first 30 videos in our dataset. The code is available at [SelfieVideo_MinimalTraining](https://drive.google.com/drive/folders/1QXju9dzQuDNqVT1HqRbg514z6J5BIXtF?usp=sharing "SelfieVideo_MinimalTraining").
 Please stay tuned for more data and training code.
 
 ## Reference 
